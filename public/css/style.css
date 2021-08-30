@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar a{
+    font-weight: 600;
+
+}
+.navbar .nav-link{
+   margin: 0 15px;
+}
+ .btn{
+    border-radius: 0;
+    padding: 8px 18px;
+}
+
+.nav-item.active{
+    border-bottom: 2px solid orange;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: ghostwhite;
+    
+}
+.dev a{
+    color: #000;
+    padding: 5px;
+}
+.dev a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.home .container{
+    padding-top: 150px;
+}
+.text{
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.maintext{
+    color: #1189AA;
+}
+.homeimg{
+    width: 100%;
+    height: 400px;
+
+}
+.box{
+    width: 100%;
+    min-height: 89vh;
+    background-color: ghostwhite;
+    padding-top: 150px ;
+}
+.box .container .card{
+    border: none !important;
+    border-radius: 0;
+    box-shadow: 0px 10px 15px grey;
+    padding: 15px;
+}
+.proimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.login{
+    width: 100%;
+    height: 100vh;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login .card{
+    border: none !important;
+    border-radius: 0;
+    box-shadow: 0px 10px 15px grey;
+}
+.formbox{
+    display: flex;
+    justify-content: space-between;
+}
+.formbox a{
+    color: #000000;
+}
+
+.profile{
+    width: 100%;
+    min-height: 89vh;
+    background-color: ghostwhite;
+    padding: 70px 0;
+}
+.profile .card{
+    border: none !important;
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: 0px 5px 10px grey;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile .card:hover{
+    background-color: #1189AA;
+    color: #fff;
+}
+.profile .row a{
+    color: #000;
+}
+.profile .row a:hover{
+    color: #000;
+    text-decoration: none;
+}
